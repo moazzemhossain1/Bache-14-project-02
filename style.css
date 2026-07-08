@@ -5,14 +5,28 @@ header{
     /* background-color: purple; */
 }
 
+img{
+    max-width: 100%;
+}
+
 .btn{
     background-color:rgba(253, 110, 10, 1); 
-    padding: 6px 8px;
+    padding: 10px 20px;
     font-weight: bold;
     font-size: 22px;
     border: none;
     color: white;
    
+}
+
+
+.conmment-btn{
+    border: 1px solid rgba(253, 110, 10, 1);
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+
 }
 
 nav{
@@ -25,6 +39,8 @@ nav{
    
     
 }
+
+/* nav ber start*/
 nav ul{
     display: flex;
     gap: 15px;
@@ -53,6 +69,38 @@ nav h2 {
 nav h2 span{
     color: rgba(253, 110, 10, 1);
 }
-.hello{
-    background-color:color: rgba(253, 110, 10, 1); 
+
+
+
+/* nav ber end*/
+.main-container{
+    background-color: #fff8f3;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.left-container h3{
+    font-size: 45px;
+    font-weight:bold;
+    color: #474747;
+}
+.left-container h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #181818;
+}
+.left-container p{
+    font-size: 18px;
+    color: #474747;
+}
+.Right-container{
+    background-image: url(imges/header_bg.png);
 }
