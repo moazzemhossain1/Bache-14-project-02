@@ -104,3 +104,89 @@ nav h2 span{
 .Right-container{
     background-image: url(imges/header_bg.png);
 }
+
+
+
+
+
+
+
+.main-container-01{
+    max-width: 1200px;
+    margin: auto;
+    margin: 80px 0px;
+    background-color: #fff8f3;
+    text-align: center;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0px;
+    
+}
+.main-container-01 p{
+    color: #757575;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.main-container-01 h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+.text-container h2{
+    color: #474747;
+    font-size: 20px;
+}
+
+
+
+.what-i-do-prent{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.what-i-do-prent h2{
+    color: #181818;
+    font-size: 45px;
+    font-weight: bold;
+}
+.what-i-do-prent p{
+    color: #757575;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.what-i-do-container{
+    display: flex;
+    text-align: left;
+
+   
+    
+    gap: 10px;
+    
+    margin: 20px 0px;
+    padding: 10px;
+   
+}
+.what-i-do-container div h2{
+    color:#181818;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+     margin-top: 10px;
+}
+.what-i-do-container div p{
+    color: #757575;
+    font-size: 18px;
+   text-align: left;
+  
+}
+.what-i-do-container div{
+    border: 1px solid rgba(253, 110, 10, 1) ;
+    padding: 10px;
+    margin: 20px 0px;
+}
