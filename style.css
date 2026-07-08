@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+}
+header{
+    /* background-color: purple; */
+}
+
+.btn{
+    background-color:rgba(253, 110, 10, 1); 
+    padding: 6px 8px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    color: white;
+   
+}
+
+nav{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0px;
+    justify-content: space-between;
+    
+   
+    
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+nav ul li{
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+
+    
+}
+
+nav h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+nav h2 span{
+    color: rgba(253, 110, 10, 1);
+}
+.hello{
+    background-color:color: rgba(253, 110, 10, 1); 
+}
